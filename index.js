@@ -25,7 +25,7 @@ function mapToDouble(src){
 function mapToSquare(src){
   let arr = [];
   for (let i = 0; i < src.length; i++){
-  arr.push (src[i]^2)
+  arr.push (src[i] * src[i])
   }
   return arr;
 }
