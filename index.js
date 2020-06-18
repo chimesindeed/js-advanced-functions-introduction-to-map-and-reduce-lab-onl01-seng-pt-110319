@@ -30,13 +30,12 @@ function mapToSquare(src){
   return arr;
 }
 
-function reduceToTotal(sourceArray, startingPoint = 0){
-  let total = startingPoint;
-  for (let i = 0; i < sourceArray.length; i++){
-    total = total + sourceArray[i]
+function reduceToTotal(src, startingPoint=0) {
+  let total = startingPoint
+  for (let i = 0; i < src.length; i++ ) {
+    total = total + src[i]
   }
   return total
-  
 }
 
 function reduceAllTrue(sourceArray){
