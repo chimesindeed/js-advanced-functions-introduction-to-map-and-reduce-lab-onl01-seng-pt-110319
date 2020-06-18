@@ -29,3 +29,12 @@ function mapToSquare(src){
   }
   return arr;
 }
+
+function reduceToTotal(sourceArray, startingPoing = 0){
+  
+  
+  
+  
+}
+
+
