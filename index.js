@@ -38,8 +38,11 @@ function reduceToTotal(sourceArray, startingPoint = 0){
   total
   
 }
-function reduceToTotal(sourceArray){
-  
+function reduceAllTrue(sourceArray){
+  let total = []
+  for (let i = 0; i < sourceArray.length; i++){
+    
+  }
   
   
   
