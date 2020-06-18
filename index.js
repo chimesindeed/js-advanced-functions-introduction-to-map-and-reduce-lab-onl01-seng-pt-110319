@@ -15,3 +15,10 @@ function mapToNoChange(src){
   }
   return arr;
 }
+function mapToDouble(src){
+  let arr = [];
+  for (let i = 0; i < src.length; i++){
+  arr.push ( 2 * src[i])
+  }
+  return arr;
+}
