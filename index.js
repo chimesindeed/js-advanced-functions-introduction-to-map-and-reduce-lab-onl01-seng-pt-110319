@@ -38,7 +38,7 @@ function reduceToTotal(sourceArray, startingPoint = 0){
   total
   
 }
-function reduceToTotal(sourceArray, startingPoint = 0){
+function reduceToTotal(sourceArray){
   
   
   
