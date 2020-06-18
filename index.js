@@ -35,7 +35,7 @@ function reduceToTotal(sourceArray, startingPoint = 0){
   for (let i = 0; i < sourceArray.length; i++){
     total = total + sourceArray[i]
   }
-  total
+  return total
   
 }
 
