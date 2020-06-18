@@ -47,11 +47,5 @@ function reduceAllTrue(sourceArray){
   
   
 }
-function reduceToTotal(sourceArray, startingPoint = 0){
-  
-  
-  
-  
-}
 
 
